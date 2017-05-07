@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--4e322d563e8c4e2c1d666efd75a0805b-->
+<html>
+  <body>
+<!--       <div class="right">
+    <div class="top">
+      <img id="icon" width="75px" src="imgs/codes/200.png" />
+    </div>
+
+      <div class="bottom">
+      
+      <div class="humidity">
+        <img src="imgs/humidity.png" height="16px" />
+        <span id="humidity">0</span>%
+      </div>
+      
+      <div class="wind">
+        <span id="wind">0</span> mph <span id="direction">N</span>
+      </div>
+      
+    </div>
+      </div>
+    </div> -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project Two">
+    <meta name="author" content="Monique Trass">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+    <script type="text/javascript" src="js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               <img src="img/logo.png" alt="Weather Wear">
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="home.html">About</a>
+                    </li>
+                    <li>
+                        <a href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Weather
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="metservice-widget">
+                            <script language="JavaScript" type="text/javascript">
+                            ifrm = document.createElement("IFRAME");
+                            ifrm.setAttribute("src", "http://www.metservice.com/weather-widget/widget?params=white|large|landscape|days-1|modern&loc=Wellington&domain=" + document.location.hostname);
+                            ifrm.style.width = 200+"px";
+                            ifrm.style.height =196+"px";
+                            ifrm.style.border = "0";
+                            ifrm.setAttribute("allowtransparency", "true");
+                            ifrm.setAttribute("id", "widget-iframe");
+                            document.getElementById('metservice-widget').appendChild(ifrm);
+                            </script>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">     
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Clothing Suggestion
+                </h1>
+            </div>
+                <div class="clothing">
+                        
+                        <br></br>
+                       <center> <img id="icon" width="100%" src="img/200.jpg" /> </center>
+            </div>
+<br></br>
+</div>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Explanation
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Cloudy</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Since the weather is quite humid today Weather Wear suggests you wear something lighter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Weather Wear</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

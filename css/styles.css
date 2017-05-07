@@ -1,0 +1,95 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 90px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+h3 {
+
+}
+
+h4 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+
+}
+
+.icon {
+    height: 50%;
+    width: 50%;
+}
+
+
+img {
+    height: 30%;
+    width: 30%;
+    margin-bottom: -40px;
+    margin-top: -22px;
+}
+
+a {
+    font-family: 'Amatic SC', cursive;
+}
+
+li a {
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    border-color: #47b89a;
+
+}
+
+
+.container {
+    background-color: white;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+}
